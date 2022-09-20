@@ -40,70 +40,38 @@
     <string name="E_cc">Engine CC</string>
     <string name="petrol">Petrol</string>
     <string name="diesel">Diesel</string>
-    <string name="Hybrid">Hy</string>
+    <string name="Hybrid">Hybrid</string>
+    <string name="electric">Electric</string>
+    <string name="add">Add</string>
+
+    <!--Admin page-->
+    <string name="hi">Hi</string>
+    <string name="admin">Admin</string>
 
 
+    <!--check up page -->
+    <string name="CheckUp_header">Check Up</string>
+    <string name="Date_txt">Date</string>
+    <string name="TimeText">Time</string>
+    <string name="Pricing_txt">Pricing</string>
+    <string name="amount_txt">Amount</string>
+    <string name="Checkup_bottom_msg">Please note that this price only for the checkUP (Additional Services will cost additionally)</string>
+    <string name="cancel_btn">CANCEL</string>
+    <string name="send_btn">SEND</string>
 
 
+    <!-- Edit Profile -->
+    <string name="edit_profile_text">Edit Profile</string>
+    <string name="personal_text">Personal Details</string>
+    <string name="vehicle_details_text">Vehicle Details</string>
+    <string name="add_new_vehicle">Add New Vehicle</string>
+    <string name="remove_btn">REMOVE</string>
+    <string name="edit_btn">EDIT</string>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--check up page -->
-<string name="CheckUp_header">Check Up</string>
-<string name="Date_txt">Date</string>
-<string name="TimeText">Time</string>
-<pricing name="Pricing_txt">Pricing</pricing>
-<string name="amount_txt">Amount</string>
-<string name="Checkup_bottom_msg">Please note that this price only for the checkUP (Additional Services will cost additionally)</string>
-<string name="cancel_btn">CANCEL</string>
-<string name="send_btn">SEND</string>
-
-
-<!-- Edit Profile -->
-<string name="edit_profile_text">Edit Profile</string>
-<string name="personal_text">Personal Details</string>
-<string name="vehicle_details_text">Vehicle Details</string>
-<streing name="add_new_vehicle">Add New Vehicle</streing>
-<string name="remove_btn">REMOVE</string>
-<string name="edit_btn">EDIT</string>
-
-<!-- fuel pass -->
-<string name="fuelpass_topic_txt">Fuel Pass</string>
-<string name="add_fuel_pss_txt">Add New Fule Pass QR</string>
-<string name="my_qr_txt">My QR</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- fuel pass -->
+    <string name="fuelpass_topic_txt">Fuel Pass</string>
+    <string name="add_fuel_pss_txt">Add New Fule Pass QR</string>
+    <string name="my_qr_txt">My QR</string>
 
 
 </resources>
