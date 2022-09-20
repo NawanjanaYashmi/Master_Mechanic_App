@@ -1,10 +1,51 @@
 <resources>
+    <!--login page-->
     <string name="app_name">Master_Mechanic_App</string>
     <string name="login_btn">Login</string>
     <string name="signup_btn">Sign Up</string>
     <string name="welcome_back_topic">Welcome Back</string>
     <string name="Login_to_your_acc">Login to your account</string>
     <string name="Uname">User Name</string>
+    <string name="pw">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_pw">Forgot Password</string>
+    <string name="acc_msg">Don\'t have an account</string>
+
+    <!--Break Down-->
+    <string name="B_down">Break Down</string>
+    <string name="P_Details">Primary Details</string>
+    <string name="V_number">Vehical No</string>
+    <string name="O_name">Owner Name</string>
+    <string name="C_name">Contact No</string>
+    <string name="V_type">Vehicle Type</string>
+    <string name="loation">Location</string>
+    <string name="N_carrier">Need a Carrier</string>
+    <string name="T_movable">Tick Vehicle Is Not Movable</string>
+    <string name="S_notes">Special Notes</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="repair">Repair</string>
+    <string name="shop">Shop</string>
+
+    <!--Item Details-->
+    <string name="Available">Available</string>
+    <string name="Description">Description</string>
+
+    <!--Add New Vehicle-->
+    <string name="Add_N_Vehicle">Add New Vehicle</string>
+    <string name="V_Details">Vehicle Details</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="E_cc">Engine CC</string>
+    <string name="petrol">Petrol</string>
+    <string name="diesel">Diesel</string>
+    <string name="Hybrid">Hy</string>
+
+
+
+
+
 
 
 
