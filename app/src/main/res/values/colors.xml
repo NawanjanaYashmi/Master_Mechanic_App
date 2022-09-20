@@ -6,9 +6,34 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+
     <color name="white">#FFFFFFFF</color>
+    <!-- yellows -->
+    <color name="cardYellow">#99FFF6D2</color>
+    <color name="TextdrakYellow">#d97d00</color>
 
+    <!-- blues -->
+    <color name="mainBlue">#0372f4</color>
+    <color name="darkBlue">#0038c7</color>
+    <color name="cardBlue">#803F51B5</color>
+    <color name="textDarkBlue">#3f51b5</color>
 
+    <!--yellows-->
+   <color name= "cardPurple">#80673AB7</color>
+    <color name= "textDarkPurple">#673ab7</color>
+
+    <!-- red -->
+    <color name="cardRed">#59F44336</color>
+    <color name="textDarkYellow">#f44336</color>
+
+    <!--green -->
+    <color name="TextDarkGreen">#009688</color>
+    <color name="cardGreen">#80009688</color>
+    <color name="ButtonGreen">#8bc34a</color>
+
+    <!-- ash -->
+    <color name="liteAsh">#bdbdbd</color>
+    <color name="darkAsh">#9e9e9e</color>
 
 
 
