@@ -56,7 +56,7 @@
     <string name="Pricing_txt">Pricing</string>
     <string name="amount_txt">Amount</string>
     <string name="Checkup_bottom_msg">Please note that this price only for the checkUP (Additional Services will cost additionally)</string>
-    <string name="cancel_btn">CANCEL</string>
+    <string name="cancel_btn">Cancel</string>
     <string name="send_btn">SEND</string>
 
 

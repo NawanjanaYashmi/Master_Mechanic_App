@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_mmechanic.xml" value="0.1" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_loginpage.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_mmechanic.xml" value="0.25" />
       </map>
     </option>
   </component>

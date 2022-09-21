@@ -22,6 +22,8 @@
    <color name= "cardPurple">#80673AB7</color>
     <color name= "textDarkPurple">#673ab7</color>
 
+
+
     <!-- red -->
     <color name="cardRed">#59F44336</color>
     <color name="textDarkYellow">#f44336</color>
@@ -33,7 +35,7 @@
 
     <!-- ash -->
     <color name="liteAsh">#bdbdbd</color>
-    <color name="darkAsh">#9e9e9e</color>
+    <color name="darkAsh">#717171</color>
 
 
 
