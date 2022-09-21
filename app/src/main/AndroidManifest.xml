@@ -18,11 +18,9 @@
             android:name=".mainDashboard"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
 
             android:name=".loginpage"
             android:exported="false" >
-
 
         </activity>
         <activity
