@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Vehicle"
+        android:icon="@drawable/car_icon"
+        android:id="@+id/vehicle"
+        />
+    <item android:title="Repair"
+        android:icon="@drawable/tool_icon"
+        android:id="@+id/repair"/>
+    <item android:title="Shop"
+        android:icon="@drawable/shoping_cart_icon"
+        android:id="@+id/shop"/>
+</menu>
