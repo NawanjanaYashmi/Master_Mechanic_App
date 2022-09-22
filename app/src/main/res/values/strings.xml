@@ -48,6 +48,10 @@
     <string name="hi">Hi</string>
     <string name="admin">Admin</string>
 
+    <!--Welcome logo-->
+    <string name="W_logo">welcome logo</string>
+
+
 
     <!--check up page -->
     <string name="CheckUp_header">Check Up</string>

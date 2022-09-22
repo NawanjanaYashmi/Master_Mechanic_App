@@ -7,9 +7,10 @@
     tools:context=".M_Mechanic">
 
     <ImageView
-        android:id="@+id/car"
+        android:id="@+id/logo"
         android:layout_width="576dp"
         android:layout_height="300dp"
+        app:circularflow_radiusInDP="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -22,26 +23,32 @@
         android:id="@+id/login_btn"
         android:layout_width="190dp"
         android:layout_height="55dp"
-        android:backgroundTint="#ED1515"
+        android:backgroundTint="@color/darkAsh"
         android:text="@string/login_btn"
+        android:textAllCaps="false"
         android:textSize="20sp"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/car"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintVertical_bias="0.344" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="190dp"
         android:layout_height="55dp"
+        android:backgroundTint="@color/darkAsh"
         android:text="@string/signup_btn"
+        android:textAllCaps="false"
         android:textSize="20sp"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_btn"
         app:layout_constraintVertical_bias="0.215" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
