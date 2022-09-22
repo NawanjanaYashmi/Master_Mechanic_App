@@ -3,14 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/color_lock_icon.xml" value="0.1015" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/color_user_icon.xml" value="0.1015" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/custome_input.xml" value="0.1" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/custome_lock_icon.xml" value="0.1015" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/custome_user_icon.xml" value="0.1015" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/ic_baselin.xml" value="0.1275" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/ic_lock.xml" value="0.1665" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/ic_lockcolor.xml" value="0.1015" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/ic_user.xml" value="0.1275" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/ic_usercolor.xml" value="0.1015" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_loginpage.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_main_dashboard.xml" value="0.33" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_mmechanic.xml" value="0.18" />
-        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_welcome_page.xml" value="0.33" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_welcome_page.xml" value="0.14" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/fragment_repair.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/fragment_store.xml" value="0.20416666666666666" />
       </map>
