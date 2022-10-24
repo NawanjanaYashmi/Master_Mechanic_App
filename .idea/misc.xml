@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/color_lock_icon.xml" value="0.1015" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/color_user_icon.xml" value="0.1015" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/custome_input.xml" value="0.1" />
@@ -21,6 +22,7 @@
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/fragment_repair.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/fragment_store.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/fragment_vehicle.xml" value="0.1390625" />
+
       </map>
     </option>
   </component>
