@@ -41,7 +41,7 @@
     <string name="petrol">Petrol</string>
     <string name="diesel">Diesel</string>
 
-    <string name="Hybrid">Hy</string>
+
 
     <string name="Hybrid">Hybrid</string>
     <string name="electric">Electric</string>
@@ -62,7 +62,6 @@
 
     <string name="cancel_btn">CANCEL</string>
 
-    <string name="cancel_btn">Cancel</string>
 
     <string name="send_btn">SEND</string>
 
@@ -84,6 +83,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- Main Home Page -->
+    <string-array name="vehicleselector">
+        <item>KQ 6199</item>
+        <item>CAB 7868</item>
+        <item>CAF 7898</item>
+        <item>HG 7823</item>
+    </string-array>
     <string name="hi_txt">Hi, </string>
     <string name="name">Downey Jr</string>
 
