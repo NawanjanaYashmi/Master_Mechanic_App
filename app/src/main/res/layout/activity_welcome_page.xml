@@ -20,8 +20,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="249dp"
-        android:layout_height="33dp"
+        android:layout_width="253dp"
+        android:layout_height="39dp"
         android:layout_marginStart="55dp"
         android:text="@string/welcome_back_topic"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
