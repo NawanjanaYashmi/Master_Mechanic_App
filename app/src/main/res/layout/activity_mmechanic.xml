@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlogo"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".M_Mechanic">
@@ -15,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/car_led_lights_realistic_composition_with_dark_silhouette_automobile_with_dimmed_headlights_shadows_illustration_1284_28532" />
+        app:srcCompat="@drawable/car_led_lights_realistic_composition_with_dark_silhouette_automobile_with_dimmed_headlights_shadows_illustration_1284_28532"
+        android:contentDescription="TODO" />
 
     <Button
         android:id="@+id/login_btn"
