@@ -7,41 +7,48 @@
     tools:context=".M_Mechanic">
 
     <ImageView
-        android:id="@+id/car"
+        android:id="@+id/logo"
         android:layout_width="576dp"
         android:layout_height="300dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:circularflow_radiusInDP="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/car_led_lights_realistic_composition_with_dark_silhouette_automobile_with_dimmed_headlights_shadows_illustration_1284_28532" />
 
     <Button
         android:id="@+id/login_btn"
-        android:layout_width="190dp"
+        android:layout_width="0dp"
         android:layout_height="55dp"
-        android:backgroundTint="#ED1515"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/darkAsh"
         android:text="@string/login_btn"
+        android:textAllCaps="false"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/Signup_btn"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/car"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="190dp"
+        android:id="@+id/Signup_btn"
+        android:layout_width="0dp"
         android:layout_height="55dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/darkAsh"
         android:text="@string/signup_btn"
+        android:textAllCaps="false"
         android:textSize="20sp"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_btn"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
