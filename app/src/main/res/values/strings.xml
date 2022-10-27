@@ -27,6 +27,7 @@
     <string name="vehicle">Vehicle</string>
     <string name="repair">Repair</string>
     <string name="shop">Shop</string>
+    <string name="vehical_No">KQ-6789</string>
 
     <!--Item Details-->
     <string name="Available">Available</string>
@@ -42,9 +43,6 @@
     <string name="diesel">Diesel</string>
 
 
-
-
-
     <string name="Hybrid">Hybrid</string>
     <string name="electric">Electric</string>
     <string name="add">Add</string>
@@ -57,7 +55,6 @@
     <string name="W_logo">welcome logo</string>
 
 
-
     <!--check up page -->
     <string name="CheckUp_header">Check Up</string>
     <string name="Date_txt">Date</string>
@@ -67,8 +64,6 @@
     <string name="Checkup_bottom_msg">Please note that this price only for the checkUP (Additional Services will cost additionally)</string>
 
     <string name="cancel_btn">CANCEL</string>
-
-
 
 
     <string name="send_btn">SEND</string>
