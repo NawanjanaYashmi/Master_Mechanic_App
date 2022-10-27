@@ -53,7 +53,8 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -74,28 +75,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="41dp"
-                android:layout_marginTop="26dp"
                 android:layout_marginEnd="216dp"
                 android:text="@string/O_name"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                app:layout_constraintBaseline_toBaselineOf="@+id/Owner_TextBox2"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="41dp"
-                android:layout_marginTop="26dp"
                 android:text="@string/C_name"
                 android:textColor="@color/black"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                app:layout_constraintBaseline_toBaselineOf="@+id/ContactNo_TextBox"
+                app:layout_constraintStart_toStartOf="parent" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -138,12 +138,55 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
+
+            <EditText
+                android:id="@+id/Owner_TextBox2"
+                android:layout_width="175dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_input"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/owner_name"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColorHint="#757575"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView8"
+                app:layout_constraintTop_toBottomOf="@+id/VehicalNo_TextBox"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextFields,TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/ContactNo_TextBox"
+                android:layout_width="175dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_input"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="@string/tele_no"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textColorHint="#757575"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView9"
+                app:layout_constraintTop_toBottomOf="@+id/Owner_TextBox2"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextFields,TouchTargetSizeCheck" />
+
             <EditText
                 android:id="@+id/VehicalNo_TextBox"
                 android:layout_width="175dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="27dp"
-                android:layout_marginTop="27dp"
+                android:layout_marginTop="32dp"
                 android:layout_marginEnd="22dp"
                 android:autofillHints=""
                 android:background="@drawable/custome_input"
@@ -155,10 +198,10 @@
                 android:textColorHint="#757575"
                 android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/textView7"
                 app:layout_constraintTop_toBottomOf="@+id/textView4"
-                tools:ignore="TextContrastCheck,TextContrastCheck,TextFields"
-                 />
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextFields,TouchTargetSizeCheck" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -196,7 +239,8 @@
                 android:backgroundTint="@color/textDarkYellow"
                 android:text="@string/send"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent" />
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:ignore="TextContrastCheck" />
 
             <Button
                 android:id="@+id/Bd_CancelBtn"
@@ -207,10 +251,18 @@
                 android:layout_marginBottom="16dp"
                 android:backgroundTint="@color/white"
                 android:text="@string/cancel"
-                android:textColor="@color/textDarkYellow"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/Bd_Send_Btn"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TextContrastCheck" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                tools:layout_editor_absoluteX="275dp"
+                tools:layout_editor_absoluteY="418dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
