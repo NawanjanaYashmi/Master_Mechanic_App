@@ -93,11 +93,8 @@ public class VehicleFragment extends Fragment implements AdapterView.OnItemSelec
                  FragmentTransaction fragmentTransaction =getActivity().getSupportFragmentManager().beginTransaction();
                  fragmentTransaction.replace(R.id.frameView, new BreakDownFragment());
                  fragmentTransaction.commit();
-
             }
         });
-
-
     }
 
     @Override

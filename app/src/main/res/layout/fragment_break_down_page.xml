@@ -158,7 +158,7 @@
                 android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/textView8"
-                app:layout_constraintTop_toBottomOf="@+id/VehicalNo_TextBox"
+                app:layout_constraintTop_toBottomOf="@+id/Vehi_No_TextBox"
                 tools:ignore="TextContrastCheck,TextContrastCheck,TextFields,TouchTargetSizeCheck" />
 
             <EditText
@@ -217,7 +217,7 @@
                 tools:ignore="TextContrastCheck" />
 
             <EditText
-                android:id="@+id/VehicalNo_TextBox"
+                android:id="@+id/Vehi_No_TextBox"
                 android:layout_width="175dp"
                 android:layout_height="30dp"
                 android:layout_marginStart="27dp"
