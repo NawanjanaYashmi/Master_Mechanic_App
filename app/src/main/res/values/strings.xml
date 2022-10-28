@@ -18,7 +18,7 @@
     <string name="O_name">Owner Name</string>
     <string name="C_name">Contact No</string>
     <string name="V_type">Vehicle Type</string>
-    <string name="loation">Location</string>
+    <string name="location">Location</string>
     <string name="N_carrier">Need a Carrier</string>
     <string name="T_movable">Tick Vehicle Is Not Movable</string>
     <string name="S_notes">Special Notes</string>
@@ -30,6 +30,14 @@
     <string name="vehical_No">KQ-6789</string>
     <string name="owner_name">Downey Jr</string>>
     <string name="tele_no">07********</string>>
+    <string name="address">Address</string>>
+    <string-array name="BreakDownPage_VehicalType">
+        <item>Car</item>
+        <item>Van</item>
+        <item>Bus</item>
+        <item>Jeep</item>
+        <item>Lorry</item>
+    </string-array>
 
     <!--Item Details-->
     <string name="Available">Available</string>
@@ -43,6 +51,8 @@
     <string name="E_cc">Engine CC</string>
     <string name="petrol">Petrol</string>
     <string name="diesel">Diesel</string>
+    <string name="Ve_No">Vehicle No</string>
+    <string name="Ve_type">Vehicle Type</string>>
 
 
     <string name="Hybrid">Hybrid</string>
@@ -96,6 +106,7 @@
     </string-array>
     <string name="hi_txt">Hi, </string>
     <string name="name">Downey Jr</string>
+
 
 
 </resources>

@@ -2,26 +2,18 @@ package com.example.master_mechanic_app;
 
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
-import android.widget.Toast;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link BreakDownFragment#newInstance} factory method to
+ * Use the {@link fragment_Add_New_Vehicle#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class BreakDownFragment extends Fragment {
-
-    private Spinner BreakDownPage_VehicalType;
+public class fragment_Add_New_Vehicle extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -32,7 +24,7 @@ public class BreakDownFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public BreakDownFragment() {
+    public fragment_Add_New_Vehicle() {
         // Required empty public constructor
     }
 
@@ -42,11 +34,11 @@ public class BreakDownFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BreakDownPage.
+     * @return A new instance of fragment fragment_Add_New_Vehicle.
      */
     // TODO: Rename and change types and number of parameters
-    public static BreakDownFragment newInstance(String param1, String param2) {
-        BreakDownFragment fragment = new BreakDownFragment();
+    public static fragment_Add_New_Vehicle newInstance(String param1, String param2) {
+        fragment_Add_New_Vehicle fragment = new fragment_Add_New_Vehicle();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -67,15 +59,6 @@ public class BreakDownFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_break_down_page, container, false);
+        return inflater.inflate(R.layout.fragment__add__new__vehicle, container, false);
     }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-
-
-    }
-
-
 }
