@@ -106,6 +106,7 @@
     </string-array>
     <string name="hi_txt">Hi, </string>
     <string name="name">Downey Jr</string>
+    <string name="description">Description</string>
 
 
 </resources>
