@@ -1,5 +1,6 @@
 package com.example.master_mechanic_app;
 
+import android.app.Activity;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -11,8 +12,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.firestore.DocumentReference;
+import com.google.firebase.firestore.DocumentSnapshot;
+import com.google.firebase.firestore.EventListener;
+import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+
+import org.w3c.dom.Document;
+
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Objects;
+import java.util.concurrent.Executor;
+import java.util.jar.Attributes;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,6 +41,9 @@ import android.widget.Toast;
 public class VehicleFragment extends Fragment implements AdapterView.OnItemSelectedListener {
 
     private Spinner vehicleSelector;
+    String UID ;
+    FirebaseAuth FAuth;
+    FirebaseFirestore FStore;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -31,6 +53,7 @@ public class VehicleFragment extends Fragment implements AdapterView.OnItemSelec
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
 
     public VehicleFragment() {
         // Required empty public constructor
@@ -57,15 +80,35 @@ public class VehicleFragment extends Fragment implements AdapterView.OnItemSelec
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+        FStore = FirebaseFirestore.getInstance();
+        FAuth = FirebaseAuth.getInstance();
+        UID = FAuth.getUid();
+
+        View view = inflater.inflate(R.layout.fragment_vehicle, container, true);
+        TextView Name_Txt = (TextView) view.findViewById(R.id.name_txt);
+        DocumentReference documentReference = FStore.collection("Users").document(UID);
+       documentReference.addSnapshotListener(new EventListener<DocumentSnapshot>() {
+           @Override
+           public void onEvent(@Nullable DocumentSnapshot value, @Nullable FirebaseFirestoreException error) {
+               Name_Txt.setText(value.getString("name"));
+           }
+       });
+
 
 
         // Inflate the layout for this fragment
@@ -75,12 +118,22 @@ public class VehicleFragment extends Fragment implements AdapterView.OnItemSelec
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+
+
+
         vehicleSelector = (Spinner) view.findViewById(R.id.spinner);
         ArrayAdapter <CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(),R.array.vehicleselector, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         vehicleSelector.setAdapter(adapter);
 
         vehicleSelector.setOnItemSelectedListener(this);
+
+
+
+
+
+
+
     }
 
     @Override
