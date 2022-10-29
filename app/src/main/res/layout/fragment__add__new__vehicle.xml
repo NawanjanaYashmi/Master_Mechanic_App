@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent">
 
             <TextView
@@ -249,14 +249,14 @@
                 android:layout_height="80dp"
                 android:layout_marginStart="21dp"
                 android:layout_marginTop="54dp"
+                android:autofillHints=""
                 android:background="@drawable/custome_input"
                 android:ems="10"
                 android:gravity="start|top"
                 android:inputType="textMultiLine"
                 app:layout_constraintStart_toEndOf="@+id/textView25"
                 app:layout_constraintTop_toBottomOf="@+id/radioButton3"
-                tools:ignore="SpeakableTextPresentCheck"
-                android:autofillHints="" />
+                tools:ignore="SpeakableTextPresentCheck" />
 
             <EditText
                 android:id="@+id/Vehi_No_TextBox"
