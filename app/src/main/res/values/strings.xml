@@ -70,7 +70,7 @@
     <!--check up page -->
     <string name="CheckUp_header">Check Up</string>
     <string name="DateTime">Date and Time</string>
-    <string name ="email">Email</string>>
+    <string name="email">Email</string>>
     <string name="Pricing_txt">Pricing</string>
     <string name="amount_txt">Amount</string>
     <string name="Checkup_bottom_msg">Please note that this price only for the checkUP (Additional Services will cost additionally)</string>
@@ -87,6 +87,7 @@
     <string name="personal_text">Personal Details</string>
     <string name="vehicle_details_text">Vehicle Details</string>
     <string name="add_new_vehicle">Add New Vehicle</string>
+    <string name="Nname">Name</string>>
     <string name="remove_btn">REMOVE</string>
     <string name="edit_btn">EDIT</string>
 
