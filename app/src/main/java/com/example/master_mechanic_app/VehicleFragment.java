@@ -6,13 +6,18 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+
 import android.widget.EditText;
+
+import android.widget.Button;
+
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -38,8 +43,10 @@ import java.util.jar.Attributes;
  * Use the {@link VehicleFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class VehicleFragment extends Fragment implements AdapterView.OnItemSelectedListener {
 
+
+public class VehicleFragment extends Fragment implements AdapterView.OnItemSelectedListener {
+    Button BD_Btn;
     private Spinner vehicleSelector;
     String UID ;
     FirebaseAuth FAuth;
@@ -129,10 +136,15 @@ public class VehicleFragment extends Fragment implements AdapterView.OnItemSelec
         vehicleSelector.setOnItemSelectedListener(this);
 
 
-
-
-
-
+        BD_Btn = view.findViewById(R.id.BD_btn);
+        BD_Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                 FragmentTransaction fragmentTransaction =getActivity().getSupportFragmentManager().beginTransaction();
+                 fragmentTransaction.replace(R.id.frameView, new BreakDownFragment());
+                 fragmentTransaction.commit();
+            }
+        });
 
     }
 

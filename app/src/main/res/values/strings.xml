@@ -18,7 +18,7 @@
     <string name="O_name">Owner Name</string>
     <string name="C_name">Contact No</string>
     <string name="V_type">Vehicle Type</string>
-    <string name="loation">Location</string>
+    <string name="location">Location</string>
     <string name="N_carrier">Need a Carrier</string>
     <string name="T_movable">Tick Vehicle Is Not Movable</string>
     <string name="S_notes">Special Notes</string>
@@ -27,6 +27,17 @@
     <string name="vehicle">Vehicle</string>
     <string name="repair">Repair</string>
     <string name="shop">Shop</string>
+    <string name="vehical_No">KQ-6789</string>
+    <string name="owner_name">Downey Jr</string>>
+    <string name="tele_no">07********</string>>
+    <string name="address">Address</string>>
+    <string-array name="BreakDownPage_VehicalType">
+        <item>Car</item>
+        <item>Van</item>
+        <item>Bus</item>
+        <item>Jeep</item>
+        <item>Lorry</item>
+    </string-array>
 
     <!--Item Details-->
     <string name="Available">Available</string>
@@ -41,14 +52,18 @@
     <string name="petrol">Petrol</string>
     <string name="diesel">Diesel</string>
 
+    <string name="Ve_No">Vehicle No</string>
+    <string name="Ve_type">Vehicle Type</string>>
+
+
 
     <string name="Hybrid">Hybrid</string>
     <string name="electric">Electric</string>
     <string name="add">Add</string>
 
     <!--Admin page-->
-    <string name="hi">Hi</string>
-    <string name="admin">Admin</string>
+    <string name="hi">Hi Admin</string>
+
 
     <!--Welcome logo-->
     <string name="W_logo">welcome logo</string>
@@ -56,12 +71,13 @@
 
     <!--check up page -->
     <string name="CheckUp_header">Check Up</string>
-    <string name="Date_txt">Date</string>
-    <string name="TimeText">Time</string>
+    <string name="DateTime">Date and Time</string>
+    <string name="email">Email</string>>
     <string name="Pricing_txt">Pricing</string>
     <string name="amount_txt">Amount</string>
     <string name="Checkup_bottom_msg">Please note that this price only for the checkUP (Additional Services will cost additionally)</string>
-
+    <string name="date">Date</string>>
+    <string name="time">Time</string>>
     <string name="cancel_btn">CANCEL</string>
 
 
@@ -73,6 +89,7 @@
     <string name="personal_text">Personal Details</string>
     <string name="vehicle_details_text">Vehicle Details</string>
     <string name="add_new_vehicle">Add New Vehicle</string>
+    <string name="Nname">Name</string>>
     <string name="remove_btn">REMOVE</string>
     <string name="edit_btn">EDIT</string>
 
@@ -93,6 +110,7 @@
     </string-array>
     <string name="hi_txt">Hi, </string>
     <string name="name">Downey Jr</string>
+    <string name="description">Description</string>
 
 
 </resources>

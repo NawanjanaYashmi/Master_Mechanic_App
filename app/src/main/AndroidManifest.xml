@@ -29,15 +29,24 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+
             android:name=".WelcomePage"
             android:exported="false">
 
+
         </activity>
+
         <activity
             android:name=".mainDashboard"
             android:exported="false" >
 
+
+
         </activity>
+
+
+
+        
         <activity
             android:name=".M_Mechanic"
             android:exported="false" />
