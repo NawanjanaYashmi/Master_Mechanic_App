@@ -51,8 +51,10 @@
     <string name="E_cc">Engine CC</string>
     <string name="petrol">Petrol</string>
     <string name="diesel">Diesel</string>
+
     <string name="Ve_No">Vehicle No</string>
     <string name="Ve_type">Vehicle Type</string>>
+
 
 
     <string name="Hybrid">Hybrid</string>
