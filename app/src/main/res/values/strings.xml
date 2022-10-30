@@ -92,6 +92,7 @@
     <string name="Nname">Name</string>>
     <string name="remove_btn">REMOVE</string>
     <string name="edit_btn">EDIT</string>
+    <string name="save">Save</string>>
 
     <!-- fuel pass -->
     <string name="fuelpass_topic_txt">Fuel Pass</string>

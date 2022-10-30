@@ -331,11 +331,11 @@
                 android:textStyle="bold"
                 app:cornerRadius="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/button3"
+                app:layout_constraintEnd_toStartOf="@+id/CheakUp_SendBtn"
                 app:layout_constraintStart_toStartOf="parent" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/CheakUp_SendBtn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="25dp"
