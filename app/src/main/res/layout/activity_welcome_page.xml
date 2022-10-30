@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/loginpic" />
 
     <EditText
-        android:id="@+id/editTextTextPassword6"
+        android:id="@+id/login_pass_txt"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="60dp"
@@ -38,7 +38,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName16"
+        app:layout_constraintTop_toBottomOf="@+id/login_txt"
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -71,7 +71,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName16"
+        android:id="@+id/login_txt"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="60dp"
@@ -101,7 +101,7 @@
         android:text="@string/remember_me"
         android:textSize="12sp"
         app:layout_constraintStart_toEndOf="@+id/switch3"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/logbtn" />
 
     <Switch
         android:id="@+id/switch3"
@@ -112,7 +112,7 @@
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toStartOf="@+id/RememberMe"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/logbtn"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -124,10 +124,10 @@
         android:text="@string/forgot_pw"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/logbtn" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/logbtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
@@ -139,7 +139,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword6" />
+        app:layout_constraintTop_toBottomOf="@+id/login_pass_txt" />
 
     <TextView
         android:id="@+id/textView6"

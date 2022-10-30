@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -46,11 +47,12 @@ import java.util.jar.Attributes;
 
 
 public class VehicleFragment extends Fragment implements AdapterView.OnItemSelectedListener {
-    Button BD_Btn;
+    Button BD_Btn,setCheckUpBtn,setWashBtn;
     private Spinner vehicleSelector;
     String UID ;
     FirebaseAuth FAuth;
     FirebaseFirestore FStore;
+    CardView addVehicle;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -126,7 +128,7 @@ public class VehicleFragment extends Fragment implements AdapterView.OnItemSelec
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-
+        setCheckUpBtn = view.findViewById(R.id.checkBtn);
 
         vehicleSelector = (Spinner) view.findViewById(R.id.spinner);
         ArrayAdapter <CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(),R.array.vehicleselector, android.R.layout.simple_spinner_item);
@@ -136,15 +138,22 @@ public class VehicleFragment extends Fragment implements AdapterView.OnItemSelec
         vehicleSelector.setOnItemSelectedListener(this);
 
 
-        BD_Btn = view.findViewById(R.id.BD_btn);
-        BD_Btn.setOnClickListener(new View.OnClickListener() {
+        addVehicle = (CardView) view.findViewById(R.id.addVehiclecard);
+
+
+
+        setCheckUpBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                 FragmentTransaction fragmentTransaction =getActivity().getSupportFragmentManager().beginTransaction();
-                 fragmentTransaction.replace(R.id.frameView, new BreakDownFragment());
-                 fragmentTransaction.commit();
+            public void onClick(View v) {
+                FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frameView,new VehicleFragment());
+                fragmentTransaction.commit();
+
             }
         });
+
+
+
 
     }
 

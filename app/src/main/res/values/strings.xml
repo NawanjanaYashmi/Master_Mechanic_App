@@ -56,7 +56,6 @@
     <string name="Ve_type">Vehicle Type</string>>
 
 
-
     <string name="Hybrid">Hybrid</string>
     <string name="electric">Electric</string>
     <string name="add">Add</string>
@@ -111,6 +110,23 @@
     <string name="hi_txt">Hi, </string>
     <string name="name">Downey Jr</string>
     <string name="description">Description</string>
+
+    <string name="breakeTxt">
+
+    Even if Vehicle new\n
+    does it look like a\n
+    old one ?
+    </string>
+    <string name="custome_txt">Set a Custome Service</string>
+
+
+    <!-- vehicle regi  -->
+    <string name="vehiregidetails">Vehicle Registration Details</string>
+    <string name="oname">Owner Name</string>
+
+
+
+
 
 
 </resources>
