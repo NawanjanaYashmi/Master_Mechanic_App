@@ -55,7 +55,7 @@ public class tempregister extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(tempregister.this,"user Created SuccessFuly" , Toast.LENGTH_LONG).show();
-                            startActivity(new Intent(getApplicationContext(),mainDashboard.class));
+                            startActivity(new Intent(getApplicationContext(),fuelpass.class));
                         }else{
                             Toast.makeText(tempregister.this,"Error.. Please try again later" , Toast.LENGTH_LONG).show();
 

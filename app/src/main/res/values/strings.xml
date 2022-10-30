@@ -56,7 +56,6 @@
     <string name="Ve_type">Vehicle Type</string>>
 
 
-
     <string name="Hybrid">Hybrid</string>
     <string name="electric">Electric</string>
     <string name="add">Add</string>
@@ -92,7 +91,7 @@
     <string name="Nname">Name</string>>
     <string name="remove_btn">REMOVE</string>
     <string name="edit_btn">EDIT</string>
-    <string name="save">Save</string>>
+    <string name="save">Save</string>
 
     <!-- fuel pass -->
     <string name="fuelpass_topic_txt">Fuel Pass</string>
@@ -112,6 +111,11 @@
     <string name="hi_txt">Hi, </string>
     <string name="name">Downey Jr</string>
     <string name="description">Description</string>
+
+    <!-- Registration -->
+    <string name="regis">Registration</string>
+    <string name="Createuracc">Create your Account</string>
+
 
 
 </resources>
