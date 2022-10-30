@@ -115,7 +115,13 @@
     <!-- Registration -->
     <string name="regis">Registration</string>
     <string name="Createuracc">Create your Account</string>
+    <string name="emailadd">Email Address</string>>
+    <string name="ComfirmPw">Confirm Password</string>
+    <string name="Alreadyhaveannacc">Already have an account?</string>
+    <string name="register">Register</string>
 
+    <!-- Add Item -->
+    <string name="sakura">Sakura Toyota Oil Filter</string>
 
 
 </resources>

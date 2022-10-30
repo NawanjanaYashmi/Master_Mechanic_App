@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".carddetails">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Enter Card Details"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="3dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="61dp"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/back"
+        android:layout_width="360dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@color/cardBlue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider2"
+        tools:ignore="MissingConstraints">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            tools:layout_editor_absoluteX="-6dp"
+            tools:layout_editor_absoluteY="-67dp">
+
+
+            <EditText
+                android:id="@+id/editTextTextPassword3"
+                android:layout_width="129dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_input"
+                android:drawableStart="@drawable/"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="CVV"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.971"
+                app:layout_constraintStart_toStartOf="parent"
+
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"
+                tools:layout_editor_absoluteY="137dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword2"
+                android:layout_width="129dp"
+                android:layout_height="47dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_input"
+                android:drawableStart="@drawable/"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Expiry Date"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"
+                tools:layout_editor_absoluteY="137dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_input"
+                android:drawableStart="@drawable/"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Card Holder Name"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+
+                tools:ignore="TextContrastCheck"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword6"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:autofillHints=""
+                android:background="@drawable/custome_input"
+                android:drawableStart="@drawable/"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Card Number"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+
+                tools:ignore="TextContrastCheck"
+                tools:layout_editor_absoluteY="76dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="83dp"
+                android:layout_height="35dp"
+                android:text="Pay"
+                tools:ignore="TouchTargetSizeCheck"
+                tools:layout_editor_absoluteX="261dp"
+                tools:layout_editor_absoluteY="193dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

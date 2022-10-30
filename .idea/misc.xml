@@ -18,7 +18,9 @@
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/orange_card.xml" value="0.1435" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/drawable/orangecard.xml" value="0.1435" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/actionbar.xml" value="0.33" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_add_item.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_add_new_vehicle.xml" value="0.22" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_carddetails.xml" value="0.16510416666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_cheak_up.xml" value="0.203125" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_fuelpass.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_itemdetails.xml" value="0.203125" />
@@ -27,6 +29,7 @@
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_main_dashboard.xml" value="0.2" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_mmechanic.xml" value="0.22" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_registration.xml" value="0.20416666666666666" />
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_servce_infor.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_shop_user.xml" value="0.19010416666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_temp_log.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/activity_tempregister.xml" value="0.20416666666666666" />
