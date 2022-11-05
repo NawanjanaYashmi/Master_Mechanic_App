@@ -45,13 +45,14 @@
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/fragment_repair.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/fragment_store.xml" value="0.20416666666666666" />
         <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/fragment_vehicle.xml" value="0.21" />
-
+        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/item_row.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/bgspinner.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/border.xml" value="0.238" />
         <entry key="app/src/main/res/drawable/car_icon.xml" value="0.238" />
         <entry key="app/src/main/res/drawable/spinnerbg.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/tool_icon.xml" value="0.25" />
         <entry key="app/src/main/res/layout/actionbar.xml" value="0.296875" />
+        <entry key="app/src/main/res/layout/activity_add_new_vehicle.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_addnewvehicle.xml" value="0.36731262207031257" />
         <entry key="app/src/main/res/layout/activity_breakdown.xml" value="0.296875" />
         <entry key="app/src/main/res/layout/activity_cheakup.xml" value="0.16039123535156247" />
@@ -81,9 +82,6 @@
         <entry key="app/src/main/res/layout/item_row.xml" value="0.4257904052734375" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.16574074074074074" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.31145833333333334" />
-
-        <entry key="..\:/MAD/Master_Mechanic_App/app/src/main/res/layout/item_row.xml" value="0.1" />
-
       </map>
     </option>
   </component>

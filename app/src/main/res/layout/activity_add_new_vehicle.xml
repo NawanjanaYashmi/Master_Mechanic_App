@@ -4,11 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<<< HEAD:app/src/main/res/layout/activity_addnewvehicle.xml
-    tools:context=".addnewvehicle">
-========
+
+
     tools:context=".AddNewVehicle">
->>>>>>>> main:app/src/main/res/layout/activity_add_new_vehicle.xml
+
 
     <View
         android:id="@+id/divider6"
@@ -48,11 +47,9 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView8"
         android:layout_width="360dp"
-<<<<<<<< HEAD:app/src/main/res/layout/activity_addnewvehicle.xml
-        android:layout_height="600dp"
-========
+
         android:layout_height="570dp"
->>>>>>>> main:app/src/main/res/layout/activity_add_new_vehicle.xml
+
         android:layout_marginStart="25dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="25dp"

@@ -23,6 +23,7 @@
             android:exported="false" />
         <activity
             android:name=".AddItem"
+            android:exported="false" />
 
         <activity
             android:name=".vehicleregistrationdetails"
@@ -49,9 +50,7 @@
         <activity
             android:name=".Editprofile"
             android:exported="false" />
-        <activity
-            android:name=".addnewvehicle"
-            android:exported="false" />
+
         <activity
             android:name=".cheakup"
             android:exported="false" />
@@ -64,20 +63,14 @@
         <activity
             android:name=".itemdetails"
             android:exported="false" />
-        <activity
-            android:name=".fuelpass"
-            android:exported="true">
-            
-        </activity>
+
         <activity
             android:name=".shop_user"
             android:exported="false" />
         <activity
             android:name=".AddNewVehicle"
             android:exported="false" />
-        <activity
-            android:name=".tempregister"
-            android:exported="true" />
+
         <activity
             android:name=".tempLog"
             android:exported="false" />
@@ -88,9 +81,7 @@
             android:name=".WelcomePage"
             android:exported="false" />
 
-        <activity
-            android:name=".mainDashboard"
-            android:exported="false" />
+
 
         <activity
             android:name=".M_Mechanic"
