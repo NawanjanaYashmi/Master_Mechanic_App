@@ -91,7 +91,6 @@
     <string name="Nname">Name</string>>
     <string name="remove_btn">REMOVE</string>
     <string name="edit_btn">EDIT</string>
-    <string name="save">Save</string>
 
     <!-- fuel pass -->
     <string name="fuelpass_topic_txt">Fuel Pass</string>
@@ -112,16 +111,22 @@
     <string name="name">Downey Jr</string>
     <string name="description">Description</string>
 
-    <!-- Registration -->
-    <string name="regis">Registration</string>
-    <string name="Createuracc">Create your Account</string>
-    <string name="emailadd">Email Address</string>>
-    <string name="ComfirmPw">Confirm Password</string>
-    <string name="Alreadyhaveannacc">Already have an account?</string>
-    <string name="register">Register</string>
+    <string name="breakeTxt">
 
-    <!-- Add Item -->
-    <string name="sakura">Sakura Toyota Oil Filter</string>
+    Even if Vehicle new\n
+    does it look like a\n
+    old one ?
+    </string>
+    <string name="custome_txt">Set a Custome Service</string>
+
+
+    <!-- vehicle regi  -->
+    <string name="vehiregidetails">Vehicle Registration Details</string>
+    <string name="oname">Owner Name</string>
+
+
+
+
 
 
 </resources>

@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class M_Mechanic extends AppCompatActivity {
 
-    Button loginBtn;
+    Button Login_btn,signup_btn;
 
 
 
@@ -20,15 +20,23 @@ public class M_Mechanic extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mmechanic);
 
-        loginBtn = findViewById(R.id.login_btn);
+        Login_btn = findViewById(R.id.login_btn);
+        signup_btn = findViewById(R.id.Signup_btn);
 
+        Login_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),tempLog.class));
+            }
+        });
 
-       loginBtn.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View view) {
-               startActivity(new Intent(getApplicationContext(),WelcomePage.class));
-           }
-       });
+        signup_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),tempregister.class));
+            }
+        });
+
 
 
 

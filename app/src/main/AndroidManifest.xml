@@ -14,6 +14,8 @@
         android:theme="@style/Theme.Master_Mechanic_App"
         tools:targetApi="31">
         <activity
+
+            
             android:name=".ServceInfor"
             android:exported="false" />
         <activity
@@ -21,9 +23,43 @@
             android:exported="false" />
         <activity
             android:name=".AddItem"
+
+        <activity
+            android:name=".vehicleregistrationdetails"
+
             android:exported="false" />
         <activity
             android:name=".registration"
+            android:exported="false" />
+        <activity
+            android:name=".fuelpass"
+            android:exported="false" />
+        <activity
+            android:name=".shopAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".shop"
+            android:exported="false" />
+        <activity
+            android:name=".mainadmin"
+            android:exported="false" />
+        <activity
+            android:name=".Breakdown"
+            android:exported="false" />
+        <activity
+            android:name=".Editprofile"
+            android:exported="false" />
+        <activity
+            android:name=".addnewvehicle"
+            android:exported="false" />
+        <activity
+            android:name=".cheakup"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleDash"
+            android:exported="false" />
+        <activity
+            android:name=".tempregister"
             android:exported="false" />
         <activity
             android:name=".itemdetails"
@@ -31,11 +67,7 @@
         <activity
             android:name=".fuelpass"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            
         </activity>
         <activity
             android:name=".shop_user"
@@ -55,9 +87,20 @@
         <activity
             android:name=".WelcomePage"
             android:exported="false" />
+
+        <activity
+            android:name=".mainDashboard"
+            android:exported="false" />
+
         <activity
             android:name=".M_Mechanic"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

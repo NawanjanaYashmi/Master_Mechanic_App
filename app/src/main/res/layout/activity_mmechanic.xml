@@ -9,15 +9,16 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="576dp"
-        android:layout_height="300dp"
+        android:layout_width="578dp"
+        android:layout_height="298dp"
+        android:contentDescription="TODO"
         app:circularflow_radiusInDP="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/car_led_lights_realistic_composition_with_dark_silhouette_automobile_with_dimmed_headlights_shadows_illustration_1284_28532"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/png"
+        android:background="@color/black"/>
 
     <Button
         android:id="@+id/login_btn"

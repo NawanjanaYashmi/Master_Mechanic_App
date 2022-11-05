@@ -26,7 +26,7 @@ public class tempLog extends AppCompatActivity {
         Login_txt = findViewById(R.id.login_txt);
         Login_pass_txt = findViewById(R.id.login_pass_txt);
         loginbtn = findViewById(R.id.logbtn);
-        registerbtn = findViewById(R.id.Register_btn);
+
         FAuth = FirebaseAuth.getInstance();
 
 
@@ -41,7 +41,10 @@ public class tempLog extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(tempLog.this, "User Login Successsful", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),AddNewVehicle.class));
+
+                            startActivity(new Intent(getApplicationContext(),VehicleDash.class));
+
+
                         }else{
                             Toast.makeText(tempLog.this, "Email Or Password Is Incorrect", Toast.LENGTH_SHORT).show();
 
