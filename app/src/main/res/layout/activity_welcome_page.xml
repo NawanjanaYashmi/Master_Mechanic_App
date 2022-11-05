@@ -20,7 +20,9 @@
         app:srcCompat="@drawable/loginpic" />
 
     <EditText
-        android:id="@+id/login_pass_txt"
+
+        android:id="@+id/loginPwBox"
+
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="60dp"
@@ -38,7 +40,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_txt"
+
+
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -71,7 +74,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/login_txt"
+
+
+        android:id="@+id/loginUserNameBox"
+
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="60dp"
@@ -139,7 +145,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login_pass_txt" />
+
+        app:layout_constraintTop_toBottomOf="@+id/loginPwBox" />
+
 
     <TextView
         android:id="@+id/textView6"

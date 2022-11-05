@@ -41,7 +41,10 @@ public class tempLog extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(tempLog.this, "User Login Successsful", Toast.LENGTH_SHORT).show();
+
                             startActivity(new Intent(getApplicationContext(),VehicleDash.class));
+
+
                         }else{
                             Toast.makeText(tempLog.this, "Email Or Password Is Incorrect", Toast.LENGTH_SHORT).show();
 

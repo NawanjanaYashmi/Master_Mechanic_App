@@ -14,7 +14,19 @@
         android:theme="@style/Theme.Master_Mechanic_App"
         tools:targetApi="31">
         <activity
+
+            
+            android:name=".ServceInfor"
+            android:exported="false" />
+        <activity
+            android:name=".carddetails"
+            android:exported="false" />
+        <activity
+            android:name=".AddItem"
+
+        <activity
             android:name=".vehicleregistrationdetails"
+
             android:exported="false" />
         <activity
             android:name=".registration"
@@ -50,6 +62,23 @@
             android:name=".tempregister"
             android:exported="false" />
         <activity
+            android:name=".itemdetails"
+            android:exported="false" />
+        <activity
+            android:name=".fuelpass"
+            android:exported="true">
+            
+        </activity>
+        <activity
+            android:name=".shop_user"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".tempregister"
+            android:exported="true" />
+        <activity
             android:name=".tempLog"
             android:exported="false" />
         <activity
@@ -58,9 +87,11 @@
         <activity
             android:name=".WelcomePage"
             android:exported="false" />
+
         <activity
             android:name=".mainDashboard"
             android:exported="false" />
+
         <activity
             android:name=".M_Mechanic"
             android:exported="true">
