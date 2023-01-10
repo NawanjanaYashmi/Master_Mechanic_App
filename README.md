@@ -20,5 +20,13 @@
 <h3>Used Technologies </h3>
         <ul>
         <li> Java</li>
-        <li> Fire Base <li>
+        <li> Fire Base </li>
+        </ul>
+        
+<h3>Team Members</h3>
+        <ul>
+        <li>IT 21057724 Perera H.T.R</li>
+        <li>IT 21061134 Samarahewa N.Y</li>
+        <li>IT 21041266 Jinasena M.H.Y.C</li>
+        <li>IT 21012174 Pabasara R.P.P</li>
         </ul>
