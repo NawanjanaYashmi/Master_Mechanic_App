@@ -1,5 +1,5 @@
 # Master_Mechanic_App
-2 year 2 semester Mobile Application Development 
+
 
 
 <h3>Introduction</h3>
@@ -30,3 +30,6 @@
         <li>IT 21041266 Jinasena M.H.Y.C</li>
         <li>IT 21012174 Pabasara R.P.P</li>
         </ul>
+
+
+<h2>Developed For 2 year 2 semester Mobile Application Development</h2> 
