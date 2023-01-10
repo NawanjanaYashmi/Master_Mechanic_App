@@ -123,10 +123,10 @@
     <!-- vehicle regi  -->
     <string name="vehiregidetails">Vehicle Registration Details</string>
     <string name="oname">Owner Name</string>
-
-
-
-
+    <string name="regis">Register</string>
+    <string name="Createuracc">Create new Account</string>
+    <string name="Alreadyhaveannacc">All ready have an Account ?</string>
+    <string name="ComfirmPw">Confirm Password</string>
 
 
 </resources>
