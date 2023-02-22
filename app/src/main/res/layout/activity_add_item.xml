@@ -26,25 +26,25 @@
                 android:id="@+id/detailed_des"
                 android:layout_width="319dp"
                 android:layout_height="162dp"
-                android:front-family="@font/alice"
                 android:text="@string/sakura"
                 android:textSize="16dp"
                 android:textStyle="bold"
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="22dp"
                 tools:layout_editor_absoluteY="67dp" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-            android:id="@+id/detailed_description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:front-family="@font/alice"
-            android:text="Description"
-            android:textColor="#124c80"
-            android:textSize="26dp"
-            android:textStyle="bold"
-            tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/detailed_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="#124c80"
+                android:textSize="26dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="19dp"
+                tools:layout_editor_absoluteY="21dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <Button
             android:id="@+id/button"
@@ -60,7 +60,6 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="16dp"
-        android:scalerType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="parent"
@@ -113,7 +112,6 @@
             android:layout_marginLeft="200dp"
             android:layout_marginTop="100dp"
             android:layout_marginBottom="150dp"
-            android:front-family="@font/alice"
             android:text="LKR 12,500"
             android:textColor="#124c80"
             android:textSize="18dp"

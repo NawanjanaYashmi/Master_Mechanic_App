@@ -45,7 +45,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="269dp"
+            android:layout_height="300dp"
             tools:layout_editor_absoluteX="-6dp"
             tools:layout_editor_absoluteY="-67dp">
 
@@ -58,29 +58,29 @@
                 android:layout_marginEnd="10dp"
                 android:autofillHints=""
                 android:background="@drawable/custome_input"
-                android:drawableStart="@drawable/"
+                android:drawableStart="@drawable/ic_baseline_credit_card_24"
                 android:drawablePadding="12dp"
                 android:ems="10"
                 android:hint="CVV"
                 android:inputType="textPassword"
                 android:paddingStart="12dp"
                 android:paddingEnd="12dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/editTextTextPassword2"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.971"
-                app:layout_constraintStart_toStartOf="parent"
 
-                tools:ignore="TextContrastCheck,TouchTargetSizeCheck"
-                tools:layout_editor_absoluteY="137dp" />
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
             <EditText
                 android:id="@+id/editTextTextPassword2"
-                android:layout_width="129dp"
+                android:layout_width="158dp"
                 android:layout_height="47dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
                 android:autofillHints=""
                 android:background="@drawable/custome_input"
-                android:drawableStart="@drawable/"
+                android:drawableStart="@drawable/ic_baseline_calendar_today_24"
                 android:drawablePadding="12dp"
                 android:ems="10"
                 android:hint="Expiry Date"
@@ -102,7 +102,6 @@
                 android:layout_marginEnd="10dp"
                 android:autofillHints=""
                 android:background="@drawable/custome_input"
-                android:drawableStart="@drawable/"
                 android:drawablePadding="12dp"
                 android:ems="10"
                 android:hint="Card Holder Name"
@@ -124,7 +123,6 @@
                 android:layout_marginEnd="10dp"
                 android:autofillHints=""
                 android:background="@drawable/custome_input"
-                android:drawableStart="@drawable/"
                 android:drawablePadding="12dp"
                 android:ems="10"
                 android:hint="Card Number"
@@ -140,12 +138,12 @@
 
             <Button
                 android:id="@+id/button2"
-                android:layout_width="83dp"
-                android:layout_height="35dp"
+                android:layout_width="98dp"
+                android:layout_height="45dp"
                 android:text="Pay"
                 tools:ignore="TouchTargetSizeCheck"
-                tools:layout_editor_absoluteX="261dp"
-                tools:layout_editor_absoluteY="193dp" />
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="194dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
