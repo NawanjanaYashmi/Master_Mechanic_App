@@ -54,7 +54,7 @@ public class VehicleDash extends AppCompatActivity  {
         AddVehiclecard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),addnewvehicle.class));
+                startActivity(new Intent(getApplicationContext(),AddNewVehicle.class));
             }
         });
 
